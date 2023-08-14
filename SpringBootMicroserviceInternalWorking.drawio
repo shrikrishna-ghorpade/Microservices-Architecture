@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T14:53:07.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7vgycMsVHPyBrGQ5-3Ti" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T15:05:47.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="I2wiBuApJcrjcGRJ436a" version="21.6.8" type="github">
   <diagram name="Page-1" id="PnUXyKtYF6NEwizIRPkU">
     <mxGraphModel dx="794" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12,9 +12,11 @@
             <mxGeometry x="80" y="180" width="210" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="InDyEbOoRJ5Xt-ui2QHD-3" value="Service Layer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="110" width="280" height="210" as="geometry" />
-        </mxCell>
+        <UserObject label="Service Layer" tooltip="All the logical part&#xa;" id="InDyEbOoRJ5Xt-ui2QHD-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="270" y="110" width="280" height="210" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="InDyEbOoRJ5Xt-ui2QHD-4" value="DAO Layer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="595" y="110" width="80" height="100" as="geometry" />
         </mxCell>
