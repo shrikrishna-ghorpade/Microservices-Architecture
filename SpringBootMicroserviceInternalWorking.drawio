@@ -1,12 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T15:28:15.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UgjYfxclZx5EfcmGfqAa" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T15:31:57.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WDI3YgNYJU-cQyevpWnf" version="21.6.8" type="github">
   <diagram name="Page-1" id="PnUXyKtYF6NEwizIRPkU">
     <mxGraphModel dx="794" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="InDyEbOoRJ5Xt-ui2QHD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="-20" width="590" height="380" as="geometry" />
-        </mxCell>
+        <UserObject label="" tooltip="This is spring application." id="InDyEbOoRJ5Xt-ui2QHD-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="130" y="-20" width="590" height="380" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="Controller Layer" tooltip="This is entry point for any external rest API call.&#xa;Spring boot uses @Controller, @RestController annotation to define this class as entry point.&#xa;Service can be integrated inside controller using @Autowired. And API enpoints defined by @GetRequets, @PostRequest.&#xa;&#xa;This layer can be covered by ControllerAdvice which handles exceptions. " id="InDyEbOoRJ5Xt-ui2QHD-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
             <mxGeometry x="80" y="180" width="210" height="70" as="geometry" />
@@ -74,11 +76,14 @@
             <mxPoint x="645" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MZVAQr9jp4NLRx5XOE6I-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MZVAQr9jp4NLRx5XOE6I-8">
+        <mxCell id="MZVAQr9jp4NLRx5XOE6I-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MZVAQr9jp4NLRx5XOE6I-8" target="MZVAQr9jp4NLRx5XOE6I-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="40" as="sourcePoint" />
             <mxPoint x="650" y="-80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MZVAQr9jp4NLRx5XOE6I-11" value="Other microservice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-170" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
